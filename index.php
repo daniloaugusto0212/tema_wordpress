@@ -15,7 +15,7 @@
     <section class="topo">
         <div class="center">
             <header>
-                <div class="logo"><img src="assets/img/home/pngs/logo.png" alt="Logomarca"></div>
+                <div class="logo"><img src="img/home/pngs/logo.png" alt="Logomarca"></div>
                 <!-- /.logo -->
             </header>
             <div class="menu-desktop">
@@ -26,6 +26,18 @@
                 </ul>
             </div>
             <!-- /.menu-desktop -->
+            <div class="clear"></div>
+            <br><br>
+            <div class="w50 time-descricao">
+                <h2>Melhore a comunicação com o seu cliente e time.</h2>
+                <p>Consultoria especializada em startups, empresas, principalmente, pessoas.</p>
+                <a target="_blank" href="https://sitedan.com.br">Ver demonstração</a>
+            </div>
+            <!-- /.w50 -->
+            <div class="w50 time-imagem">
+                <img src="img/home/pngs/ilustracao.png" alt="Imagem de equipe da home">
+            </div>
+            <!-- /.w50 -->
             <div class="clear"></div>
         </div>
         <!-- /.center -->
