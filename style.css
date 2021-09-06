@@ -215,6 +215,44 @@ section.sobre-time {
     max-width: 100%;
 }
 
+section.depoimentos {
+    padding: 100px 0;
+    background-color: #23188f;
+}
+
+section.depoimentos h2 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.depoimentos-box {
+    overflow: hidden;
+    margin: 10px auto;
+    max-width: 800px;
+    color: white;
+}
+
+.depoimento-single {
+    display: inline-block;
+    width: 100%;
+}
+
+.depoimento-single p {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.depoimento-single img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
 
 /*SLICK SLIDER*/
 

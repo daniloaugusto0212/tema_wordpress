@@ -130,6 +130,35 @@
     </section>
     <!-- /.time -->
 
+    <section class="depoimentos">
+        <div class="center">
+            <h2>Depoimentos</h2>
+            <div class="depoimentos-box">
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error minima odio veritatis maiores perspiciatis. Similique quos, atque sint molestias impedit excepturi voluptatibus earum neque magnam ex commodi, corporis aut. Eius."</p>
+                    <p>Danilo Augusto</p>
+                    <img src="img/home/autor.jpg" alt="">
+                </div>
+                <!-- /.depoimento-single -->
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error minima odio veritatis maiores perspiciatis. Similique quos, atque sint molestias impedit excepturi voluptatibus earum neque magnam ex commodi, corporis aut. Eius."</p>
+                    <p>Solange de Souza</p>
+                    <img src="img/home/autor-2.jpg" alt="">
+                </div>
+                <!-- /.depoimento-single -->
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error minima odio veritatis maiores perspiciatis. Similique quos, atque sint molestias impedit excepturi voluptatibus earum neque magnam ex commodi, corporis aut. Eius."</p>
+                    <p>Sophia Beatriz</p>
+                    <img src="img/home/autor-3.jpg" alt="">
+                </div>
+                <!-- /.depoimento-single -->
+            </div>
+            <!-- /.depoimentos-box -->
+        </div>
+        <!-- /.center -->
+    </section>
+    <!-- /.depoimentos -->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
