@@ -323,6 +323,33 @@ footer > .center {
     text-decoration: none;
 }
 
+/*PÀGINA SOBRE*/
+
+section.sobre-equipe {
+    padding: 40px;
+    color: #202020;
+}
+
+.sobre-equipe-descricao {
+    padding: 0 25px;
+    margin-bottom: 30px;
+}
+
+.sobre-equipe-imagem img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+section.sobre-equipe .sobre-equipe-descricao h2 {
+    font-size: 45px;
+}
+
+section.sobre-equipe .sobre-equipe-descricao p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
 
 /*SLICK SLIDER*/
 
