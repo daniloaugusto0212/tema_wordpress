@@ -336,7 +336,7 @@ section.sobre-equipe {
 }
 
 .sobre-equipe-imagem img{
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 30px;
 }
 
@@ -347,6 +347,25 @@ section.sobre-equipe .sobre-equipe-descricao h2 {
 section.sobre-equipe .sobre-equipe-descricao p {
     font-size: 16px;
     line-height: 32px;
+}
+
+section.galeria {
+    padding: 150px 0;
+    background-color: #f4f9fd;
+}
+
+.box-imagens {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-imagem-single {
+    width: 25%;
+    padding: 10px;
+}
+
+.box-imagem-single img {
+    max-width: 100%;
 }
 
 
@@ -378,5 +397,10 @@ section.sobre-equipe .sobre-equipe-descricao p {
         width: 100%!important;
         text-align: center!important;
         margin-bottom: 30px;
+    }
+
+    .box-imagem-single {
+        width: 100%;
+        text-align: center;
     }
 }
