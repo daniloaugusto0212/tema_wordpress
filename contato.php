@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Tema Wordpress - Sobre</title>
+    <title>Tema Wordpress - Contato</title>
 </head>
 <body>
     
@@ -44,64 +44,50 @@
     </section>
     <!-- /.topo -->
 
-    <section class="sobre-equipe">
-       <div class="center">
-           <div class="w50">
-               <div class="sobre-equipe-descricao">
-                   <h2>Uma equipe estratégica para um trabalho incrível</h2>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe repudiandae tempore molestias, mollitia aperiam omnis voluptates ex ut cumque velit sapiente accusantium corporis expedita! Recusandae dolorum dolorem totam voluptate?</p>
-               </div>
-               <!-- /.sobre-equipe-descricao -->
-           </div>
-           <!-- /.w50 -->
-           <div class="w50">
-               <div class="sobre-equipe-imagem">
-                   <img src="img/about/foto-equipe-01.png" alt="">
-                </div>
-           </div>
-           <!-- /.w50 -->
-           <div class="clear"></div>
-       </div>
-       <!-- /.center -->
-    </section>
-    <!-- /.sobre-equipe -->
-
-    <section class="galeria">
+    <section class="contato">
         <div class="center">
-            <div class="box-imagens">
-                <div class="box-imagem-single">
-                    <img src="img/about/foto-1.png" alt="">
+            <div class="w50">
+                <div class="contato-info">
+                    <h2>A mais importante, <br>primeira conversa.</h2>
+                    <br>
+                    <p><strong>Telefone: </strong>(11) 99999-0000</p>
+                    <p><strong>Telefone: </strong>(11) 99999-0000</p>
+                    <p><strong>Telefone: </strong>(11) 99999-0000</p>
+
+                    <div class="mapa-container">
+                        <div id="mapa">
+
+                        </div>
+                        <!-- /#mapa -->
+                    </div>
+                    <!-- /.mapa-container -->
                 </div>
-                <!-- /.box-imagem-single -->
-                <div class="box-imagem-single">
-                    <img src="img/about/foto-2.png" alt="">
-                </div>
-                <!-- /.box-imagem-single -->
-                <div class="box-imagem-single">
-                    <img src="img/about/foto-3.png" alt="">
-                </div>
-                <!-- /.box-imagem-single -->
-                <div class="box-imagem-single">
-                    <img src="img/about/foto-4.png" alt="">
-                </div>
-                <!-- /.box-imagem-single -->
+                <!-- /.contato-info -->
             </div>
-            <!-- /.box-imagens -->
+            <!-- /.w50 -->
+            <div class="w50">
+                <div class="contato-form">
+                    <form action="">
+                        <input type="text" placeholder="Nome">
+                        <input type="text" placeholder="E-mail">
+                        <input type="text" placeholder="Telefone">
+                        <select>
+                            <option value="0">Selecione</option>
+                        </select>
+                        <textarea placeholder="Mensagem"></textarea>
+                        <input type="submit" value="Enviar!">
+                    </form>
+                </div>
+                <!-- /.contato-form -->
+            </div>
+            <!-- /.w50 -->
+            <div class="clear"></div>
         </div>
         <!-- /.center -->
     </section>
-    <!-- /.galeria -->
+    <!-- /.contato -->
 
-    <footer>
-        <div class="metodologia">
-            <div class="center">
-                <h2>Conheça nossa metodologia</h2>
-                <p>O que acha de fazermos o que mais gostamos de fazer? Conversar! <br>Entre em contato por e-mail ou telefone.</p>
-                <a href="">Entrar em contato</a>
-            </div>
-            <!-- /.center -->
-        </div>
-        <!-- /.metodologia -->
+    <footer style="padding: 60px 0;">
         <div class="center">
             <div class="col-footer">
                 <h2>Suporte</h2>

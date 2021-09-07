@@ -22,9 +22,9 @@
             </header>
             <div class="menu-desktop">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li><a href="contato">Contato</a></li>
                 </ul>
             </div>
             <!-- /.menu-desktop -->
@@ -32,9 +32,9 @@
             <div class="menu-mobile">
                 <i class="fas fa-bars"></i>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li><a href="contato">Contato</a></li>
                 </ul>
             </div>
             <!-- /.menu-mobile -->
