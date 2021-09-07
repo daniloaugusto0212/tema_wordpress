@@ -49,6 +49,44 @@ section.topo {
     opacity: 1;
 }
 
+.menu-mobile {
+    display: none;
+}
+
+.menu-mobile {
+    float: right;
+}
+
+.menu-mobile i {
+    font-size: 33px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-mobile ul {
+    left: 0;
+    top: 75px;
+    width: 100%;
+    position: absolute;
+    list-style-type: none;
+    display: none;
+}
+
+.menu-mobile li {
+    padding: 8px 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #00f9f7;
+}
+
+.menu-mobile a {
+    text-decoration: none;
+    color: #202020;
+    display: block;
+}
+
 .time-descricao {
     margin-top: 50px;
     color: white;
@@ -159,6 +197,14 @@ section.diferenciais h2 {
 /*SLICK SLIDER*/
 
 @media screen and (max-width: 768px) {
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
     .w50 {
         width: 100%;
     }

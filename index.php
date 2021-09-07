@@ -28,6 +28,17 @@
                 </ul>
             </div>
             <!-- /.menu-desktop -->
+
+            <div class="menu-mobile">
+                <i class="fas fa-bars"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <!-- /.menu-mobile -->
+
             <div class="clear"></div>
             <br><br>
             <div class="w50 time-descricao">
@@ -110,7 +121,7 @@
         pauseOnHover:false,
         responsive: [
             {
-                brekpoint: 768,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2
                 }
@@ -119,5 +130,6 @@
     });
 
     </script>
+    <script src="scripts.js"></script>
 </body>
 </html>
