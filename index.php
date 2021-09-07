@@ -104,32 +104,36 @@
     </section>
     <!-- /.diferenciais -->
 
+    <section class="sobre-time">
+        <div class="center">
+            <div class="w50">
+                <div class="sobre-time-descricao">
+                    <h2>Um time experiente, <br>comunicador e coeso.</h2>
+                    <p>A Product Runt acredita que marcas fortes são construídas a partir de transformações importantes e posistivas na vida dos consumidores. Exatamente como uma conversa que ganha formam, a ideia vira flâmula.</p>
+                    <br>
+                    <p>Comunicar bem, de forma coerente e clara não é algo fácil e estamos aqui para ajudar você e seu time. Você escolhe, remoto ou presencial, para sei cliente ou seu público interno, você determina como vamos te ajudar.</p>
+                </div>
+                <!-- /.sobre-time-descricao -->
+            </div>
+            <!-- /.w50 -->
+
+            <div class="w50">
+                <div class="sobre-time-imagem">
+                    <img src="img/home/pngs/ilustracao-04.png" alt="Time experiente">
+                </div>
+                <!-- /.sobre-time-imagem -->
+            </div>
+            <!-- /.w50 -->
+            <div class="clear"></div>
+        </div>
+        <!-- /.center -->
+    </section>
+    <!-- /.time -->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script type="text/javascript">
-    $('section.clientes-slider .slider-container').slick({
-        dots: true,
-        arrows:false,
-        infinite: false,
-        speed:1000,
-        slidesToShow: 4,
-        autoplay: true,
-        centerMode:false,
-        autoplaySpeed: 3000,
-        pauseOnHover:false,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2
-                }
-            }
-        ]
-    });
-
-    </script>
     <script src="scripts.js"></script>
 </body>
 </html>
