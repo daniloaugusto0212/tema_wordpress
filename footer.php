@@ -8,7 +8,7 @@ $title = get_the_title();
             } ?>
             >
         <?php
-        if ($title != 'Contato') {
+        if ($title != 'Contato' && !is_404()) {
             ?>
         <div class="metodologia">
             <div class="center">
