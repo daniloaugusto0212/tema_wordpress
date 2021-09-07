@@ -111,6 +111,46 @@ section.clientes-slider img {
     padding: 0 20px;
 }
 
+section.diferenciais {
+    padding: 30px 0;
+}
+
+section.diferenciais h2 {
+    color: #202020;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.icons-diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.box-single-diferenciais {
+    text-align: center;
+    width: 33.3%;
+    color: #202020;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.box-single-diferenciais h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.box-single-diferenciais p {
+    font-size: 14px;
+
+}
+
+.box-single-diferenciais img {
+    max-width: 100%;
+}
+
+
 
 /*SLICK SLIDER*/
 
@@ -120,6 +160,10 @@ section.clientes-slider img {
 
 @media screen and (max-width: 768px) {
     .w50 {
+        width: 100%;
+    }
+
+    .box-single-diferenciais {
         width: 100%;
     }
 }

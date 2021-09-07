@@ -52,17 +52,46 @@
     <section class="clientes-slider">
         <div class="center">
             <div style="max-width: 700px; margin: 0 auto; overflow: hidden;" class="slider-container">
-                <img src="img/home/pngs/amazon.png" alt="Logo amazon">
-                <img src="img/home/pngs/costco.png" alt="Logo cotsco">
-                <img src="img/home/pngs/dominos.png" alt="Logo dominos">
-                <img src="img/home/pngs/uber.png" alt="Logo uber">
-                <img src="img/home/pngs/walmart.png" alt="Logo walmart">
+                <img src="img/home/pngs/amazon@2x.png" alt="Logo amazon">
+                <img src="img/home/pngs/costco@2x.png" alt="Logo cotsco">
+                <img src="img/home/pngs/dominos@2x.png" alt="Logo dominos">
+                <img src="img/home/pngs/uber@2x.png" alt="Logo uber">
+                <img src="img/home/pngs/walmart@2x.png" alt="Logo walmart">
             </div>
             <!-- /.slider-container -->
         </div>
         <!-- /.center -->
     </section>
     <!-- /.clientes-slider -->
+
+    <section class="diferenciais">
+        <div class="center">
+            <h2>Contribuímos de ponta a ponta</h2>
+            <div class="icons-diferenciais">
+                <div class="box-single-diferenciais">
+                    <img src="img/home/pngs/ilustracao-01.png" alt="Mobile imagem">
+                    <h3>Ambiente mobile</h3>
+                    <p>Garanta que toda sua comunicação esteja alinhada com o seu propósito, cada palavra conta.</p>
+                </div>
+                <!-- /.box-single-diferenciais -->
+                <div class="box-single-diferenciais">
+                    <img src="img/home/pngs/ilustracao-02.png" alt="">
+                    <h3>Sirtes e intranets</h3>
+                    <p>Um diálogo acontece quando ambas as partes falam e escutam, garanta que seu público te entenda.</p>
+                </div>
+                <!-- /.box-single-diferenciais -->
+                <div class="box-single-diferenciais">
+                    <img src="img/home/pngs/ilustracao-03.png" alt="">
+                    <h3>Comunicação one-to-one</h3>
+                    <p>O digital pra ficar sem dúvidas, mas uma comunicação integrada de verdade exige clareza mas decisões.</p>
+                </div>
+                <!-- /.box-single-diferenciais -->
+            </div>
+            <!-- /.icons-diferenciais -->
+        </div>
+        <!-- /.center -->
+    </section>
+    <!-- /.diferenciais -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
