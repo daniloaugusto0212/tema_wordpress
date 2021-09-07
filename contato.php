@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cursos.dankicode.com/app/Views/public/favicon.ico" type="image/x-icon" />
     <title>Tema Wordpress - Contato</title>
 </head>
 <body>
@@ -56,7 +57,7 @@
 
                     <div class="mapa-container">
                         <div id="mapa">
-
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.2025507808903!2d-46.37721778549343!3d-23.4892127648158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce635ba7965785%3A0x4ee8904643d403dc!2sRua%20M%C3%B3ises%20Alves%20dos%20Santos%20-%20Jardim%20das%20Oliveiras%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008111-510!5e0!3m2!1spt-BR!2sbr!4v1631043031528!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <!-- /#mapa -->
                     </div>
