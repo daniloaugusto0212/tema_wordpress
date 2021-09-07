@@ -25,6 +25,13 @@ get_header();
     <div class="circle"><i class="fas fa-chevron-down"></i></div>
     <!-- /.circle -->
 
+    <section class="conteudo-da-pagina">
+        <?php
+            the_content();
+        ?>
+    </section>
+    <!-- /.conteudo -->
+
     <section class="clientes-slider">
         <div class="center">
             <div style="max-width: 700px; margin: 0 auto; overflow: hidden;" class="slider-container">

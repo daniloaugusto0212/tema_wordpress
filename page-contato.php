@@ -1,4 +1,15 @@
+<?php
 
+//Template Name: Contato
+
+get_header();
+
+?>
+<div class="clear"></div>
+</div>
+<!-- /.center -->
+</section>
+<!-- /.topo -->
     <section class="contato">
         <div class="center">
             <div class="w50">
@@ -41,3 +52,8 @@
         <!-- /.center -->
     </section>
     <!-- /.contato -->
+    
+    <?php
+
+    get_footer();
+    

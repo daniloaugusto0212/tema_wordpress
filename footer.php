@@ -1,4 +1,15 @@
-<footer>
+<?php
+
+$title = get_the_title();
+
+?>
+    <footer <?php if ($title == 'Contato') {
+        echo 'style="padding: 20px 0;"';
+            } ?>
+            >
+        <?php
+        if ($title != 'Contato') {
+            ?>
         <div class="metodologia">
             <div class="center">
                 <h2>Conheça nossa metodologia</h2>
@@ -8,6 +19,7 @@
             <!-- /.center -->
         </div>
         <!-- /.metodologia -->
+        <?php } ?>
         <div class="center">
             <div class="col-footer">
                 <h2>Suporte</h2>
@@ -34,6 +46,9 @@
         </div>
         <!-- /.center -->
     </footer>
+
+
+    <?php wp_footer() /*Ativa os scripts dos plugins*/?> 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 

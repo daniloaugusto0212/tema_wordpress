@@ -1,4 +1,14 @@
+<?php
 
+//Template Name: Sobre
+
+get_header();
+
+?>
+<div class="clear"></div>
+</div>
+<!-- /.center -->
+</section>
     <section class="sobre-equipe">
        <div class="center">
            <div class="w50">
@@ -11,7 +21,7 @@
            <!-- /.w50 -->
            <div class="w50">
                <div class="sobre-equipe-imagem">
-                   <img src="img/about/foto-equipe-01.png" alt="">
+                   <img src="<?= INCLUDE_PATH ?>img/about/foto-equipe-01.png" alt="">
                 </div>
            </div>
            <!-- /.w50 -->
@@ -25,19 +35,19 @@
         <div class="center">
             <div class="box-imagens">
                 <div class="box-imagem-single">
-                    <img src="img/about/foto-1.png" alt="">
+                    <img src="<?= INCLUDE_PATH ?>img/about/foto-1.png" alt="">
                 </div>
                 <!-- /.box-imagem-single -->
                 <div class="box-imagem-single">
-                    <img src="img/about/foto-2.png" alt="">
+                    <img src="<?= INCLUDE_PATH ?>img/about/foto-2.png" alt="">
                 </div>
                 <!-- /.box-imagem-single -->
                 <div class="box-imagem-single">
-                    <img src="img/about/foto-3.png" alt="">
+                    <img src="<?= INCLUDE_PATH ?>img/about/foto-3.png" alt="">
                 </div>
                 <!-- /.box-imagem-single -->
                 <div class="box-imagem-single">
-                    <img src="img/about/foto-4.png" alt="">
+                    <img src="<?= INCLUDE_PATH ?>img/about/foto-4.png" alt="">
                 </div>
                 <!-- /.box-imagem-single -->
             </div>
@@ -46,3 +56,8 @@
         <!-- /.center -->
     </section>
     <!-- /.galeria -->
+
+    <?php
+
+    get_footer();
+    
