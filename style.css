@@ -432,7 +432,7 @@ section.contato {
     box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
 }
 
-.contato-form input[type=text] {
+.contato-form input[type=email] {
     width: 100%;
     height: 48px;
     margin-bottom: 15px;

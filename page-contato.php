@@ -10,6 +10,9 @@ get_header();
 <!-- /.center -->
 </section>
 <!-- /.topo -->
+
+
+
     <section class="contato">
         <div class="center">
             <div class="w50">
@@ -33,7 +36,8 @@ get_header();
             <!-- /.w50 -->
             <div class="w50">
                 <div class="contato-form">
-                    <form action="">
+                    <?php the_content() ?>
+                    <!-- <form action="">
                         <input type="text" placeholder="Nome">
                         <input type="text" placeholder="E-mail">
                         <input type="text" placeholder="Telefone">
@@ -42,7 +46,7 @@ get_header();
                         </select>
                         <textarea placeholder="Mensagem"></textarea>
                         <input type="submit" value="Enviar!">
-                    </form>
+                    </form> -->
                 </div>
                 <!-- /.contato-form -->
             </div>

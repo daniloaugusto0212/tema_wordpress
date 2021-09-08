@@ -8,13 +8,13 @@ get_header();
             <div class="clear"></div>
             <br><br>
             <div class="w50 time-descricao">
-                <h2>Melhore a comunicação com o seu cliente e time.</h2>
-                <p>Consultoria especializada em startups, empresas, principalmente, pessoas.</p>
+                <h2><?php the_field('chamada_topo') ?></h2>
+                <p><?php the_field('texto_topo') ?>.</p>
                 <a target="_blank" href="https://sitedan.com.br">Ver demonstração</a>
             </div>
             <!-- /.w50 -->
             <div class="w50 time-imagem">
-                <img src="<?= INCLUDE_PATH ?>img/home/pngs/ilustracao.png" alt="Imagem de equipe da home">
+                <img src="<?php the_field('imagem_topo') ?>" alt="Imagem de equipe da home">
             </div>
             <!-- /.w50 -->
             <div class="clear"></div>
@@ -41,6 +41,7 @@ get_header();
                 <img src="<?= INCLUDE_PATH ?>img/home/pngs/dominos@2x.png" alt="Logo dominos">
                 <img src="<?= INCLUDE_PATH ?>img/home/pngs/uber@2x.png" alt="Logo uber">
                 <img src="<?= INCLUDE_PATH ?>img/home/pngs/walmart@2x.png" alt="Logo walmart">
+                <img src="<?php the_field('imagem_topo') ?>" alt="Logo walmart">
             </div>
             <!-- /.slider-container -->
         </div>
